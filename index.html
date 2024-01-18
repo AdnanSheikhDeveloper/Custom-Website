@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Project2.css">
+
+       <!-- Bootstrap CSS -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+         <!-- bootstrap - icon -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    
+    <title>Project2</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top_nav">
+      <div class="container-fluid p-4">
+        <a class="navbar-brand" href="#">
+          <img src="./image/DogsIcon.web" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex" id="searchform">
+            <input class="form-control" id="searchbox" type="search" placeholder="Search..." aria-label="Search">
+            <button class="btn btn-outline-primary" id="searchbtn" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- banner -->
+
+      <div class="row justify-content-center" style="height: 80vh;" id="banner">
+        <div class="col-md-6 col-11" id="bannertext">
+          <h1>First I wanted to be <br>
+             a veterinarian </h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae veritatis velit obcaecati suscipit nostrum dolorem veniam nisi officia vero aut.</p>
+
+          <button class="btn bg-primary" id="banner-btn-1">Contact-us</button>
+          <button class="btn bg-light" id="banner-btn-2">Our Service</button>
+        
+        </div>
+        <div class="col-md-4 d-none d-md-block"  id="bannerimg">
+          
+          <img src="https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid" style="margin-top: 100px;"  alt="">
+
+        </div>
+      </div>
+      <!-- Service -->
+      <div class="row justify-content-center">
+        <div class="col-md-5 col-11" id="service-text">
+          <h1>As a veterinarian and <br>
+          lover of animals.</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus excepturi voluptate vero ullam, consequuntur molestiae cum eos numquam. Dolore!</p>
+
+          <button class="btn btn-warning">Service</button>
+        </div>
+
+        <div class="col-md-5" id="service-img">
+          <img src="https://images.pexels.com/photos/731022/pexels-photo-731022.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid" id="services-img" alt="">
+        </div>
+
+      </div>
+
+      <!-- Counter -->
+      <div class="row justify-content-center" id="counter-section">
+        <div class="col-md-3 text-center text-white mt-5 mb-3">
+
+          <i class="bi bi-heart-pulse  counter-icon"></i>
+          <h3>+34793 <br>
+            Happy-client</h3>
+       
+        </div>
+        <div class="col-md-3 text-center text-white mt-5 mb-3">
+
+          <i class="bi bi-building-check  counter-icon"></i>
+          <h3>+46544 <br>
+            Department
+          </h3>
+          
+        </div>
+        <div class="col-md-3 text-center text-white mt-5 mb-3">
+          
+          <i class="bi bi-eyedropper counter-icon"></i>
+          <h3>+54762 <br>
+          Vaccination</h3>
+          
+        </div>
+      </div>
+
+      <!-- blog -->
+
+      <div class="row justify-content-center" id="blog">
+        <div class="col-md-12 text-center">
+
+          <h1 id="blog-title">Recent Posts</h1>
+          <p id="blog-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, suscipit corrupti. Itaque fugit assumenda a!</p>
+        </div>
+
+
+        <div class="col-md-3 col-11 mt-4">
+            <img src="https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid"  alt="">
+
+            <div class="article-detail">
+              <h4 class="article-title">As a veterinarian and lover of animals</h4>
+              <p class="article-date">February 09,2021</p>
+              <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nulla! In, fuga. Fuga.
+              </p>
+              <p><a href="#">Read more+</a></p>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-11 mt-4">
+          <img src="https://images.pexels.com/photos/7469233/pexels-photo-7469233.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid" alt="">
+
+          <div class="article-detail">
+            <h4 class="article-title">As a veterinarian and lover of animals</h4>
+            <p class="article-date">February 09,2021</p>
+            <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nulla! In, fuga. Fuga.
+            </p>
+            <p><a href="#">Read more+</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-11 mt-4">
+          <img src="https://images.pexels.com/photos/6235241/pexels-photo-6235241.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-fluid" alt="">
+
+          <div class="article-detail">
+            <h4 class="article-title">As a veterinarian and lover of animals</h4>
+            <p class="article-date">February 09,2021</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nulla! In, fuga. Fuga.
+            </p>
+            <p><a href="#">Read more+</a></p>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- footer -->
+
+      <div class="row justify-content-center m-4 text-white" id="footer">
+          <div class="col-md-3 col-11" id="footer-About">
+            <h4>About 
+            </h4>
+            <a href="">Our Team</a>
+            <br><a href="">Brand Guidewlines</a><br>
+            <a href="">Term&condition</a><br>
+            <a href="">Privacypolicy</a><br>
+           
+          
+        </div>
+        <div class="col-md-2 col-11" id="footer-services">
+            <h4>Services
+            </h4>
+            <a href="">How to order </a>
+            <br><a href="">Our-product</a><br>
+            <a href="">Promo</a><br>
+            <a href="">Payment Method</a><br>
+          
+        </div>
+        <div class="col-md-4  text-end" id="footer-title">
+            <h4>Title
+            </h4>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           </p>
+           <form action="" id="footer-form">
+            <input type="text" id="footer-search-box">
+            <button type="submit" id="footer-search-submit"><i class="bi bi-cursor-fill"></i></button>
+           </form>
+           <div class="social-icon">
+           <a href="https://www.instagram.com/accounts/login/"><i class="bi bi-instagram"></i></a>
+           <a href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
+           <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+           <a href="https://twitter.com/?lang=en"><i class="bi bi-twitter-x"></i></a>
+          </div>
+          </div>
+      </div>
+
+      <!-- conatinerfluid end -->
+    </div> 
+
+    
+
+
+
+</body>
+</html> 
